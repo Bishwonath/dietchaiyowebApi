@@ -1,13 +1,65 @@
-<!doctype html>
+<html>
+  <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food & Grocery Delivery</title>
+  <!-- Add external CSS or Bootstrap link here -->
+</head>
+<body>
+  <section class="delivered-main">
+    <div class="container">
+      <!-- Header and Navigation -->
+      <nav class="navbar navbar-light navbar-expand-xl">
+        <a href="/" class="navbar-brand">
+          <!-- Add logo image here -->
+          <img src="" alt="Logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="row">
+        <div class="col-md-6 col-xl-6 col-12">
+          <h1>What do you feel like today?</h1>
+          <div class="row food-delivered">
+            <!-- Food Delivery Section -->
+            <div class="col-xl-6 col-6">
+              <a href="#" class="text-center d-block">
+                <!-- Add food delivery image here -->
+                <img src="" alt="Get Food Delivered" class="img-fluid mb-2">
+                <h2>Get Food & Grocery Delivered</h2>
+              </a>
+            </div>
+            <!-- Grocery Delivery Section -->
+            <div class="col-xl-6 col-6">
+              <a href="#" class="text-center d-block">
+                <!-- Add grocery delivery image here -->
+                <img src="" alt="Get Grocery Delivered" class="img-fluid mb-2">
+                <h2>Get Grocery Delivered</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add external JS or Bootstrap link here -->
+</body>
+</html>
+
 </html>
